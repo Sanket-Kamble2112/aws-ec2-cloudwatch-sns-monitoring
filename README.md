@@ -54,7 +54,7 @@ EC2-CPU-High-Alarm
 EC2-Status-Check-Alarm
 ```
 
-![CloudWatch Alarms](screenshots/alarms.png)
+![CloudWatch Alarms](alarms.png)
 
 ---
 
@@ -74,7 +74,7 @@ CPUUtilization >= 70
 
 The CPU alarm was tested by generating CPU load on the EC2 instance.
 
-![CPU Alarm](screenshots/cpualarm.png)
+![CPU Alarm](cpualarm.png)
 
 ---
 
@@ -90,7 +90,7 @@ State Change: OK -> ALARM
 
 and shows a CPU value above the configured threshold.
 
-![CPU Alarm Email](screenshots/email2.png)
+![CPU Alarm Email](email2.png)
 
 ---
 
@@ -104,11 +104,11 @@ EC2-Status-Check-Alarm
 
 was created and is visible in the CloudWatch evidence.
 
-![Status Check Alarm](screenshots/status-check.png)
+![Status Check Alarm](status-check.png)
 
 A corresponding AWS SNS notification email was received.
 
-![Status Alarm Email](screenshots/email1.png)
+![Status Alarm Email](email1.png)
 
 ---
 
@@ -151,7 +151,7 @@ EC2-Status-Check-Alarm
 
 The CloudWatch monitoring overview shows recent EC2 alarm activity and CPU utilization.
 
-![CloudWatch Monitoring Overview](screenshots/finalmonitoring.png)
+![CloudWatch Monitoring Overview](finalmonitoring.png)
 
 ---
 
@@ -170,11 +170,11 @@ The supplied emails contain:
 
 ### Status Alarm Notification
 
-![Status Alarm SNS Email](screenshots/email1.png)
+![Status Alarm SNS Email](email1.png)
 
 ### CPU Alarm Notification
 
-![CPU Alarm SNS Email](screenshots/email2.png)
+![CPU Alarm SNS Email](email2.png)
 
 ---
 
@@ -234,31 +234,31 @@ Email notification
 
 ### CloudWatch Alarms
 
-![Alarms](screenshots/alarms.png)
+![Alarms](alarms.png)
 
 ### CPU Alarm
 
-![CPU Alarm](screenshots/cpualarm.png)
+![CPU Alarm](cpualarm.png)
 
 ### Status Check Alarm
 
-![Status Check Alarm](screenshots/status-check.png)
+![Status Check Alarm](status-check.png)
 
 ### Alarms in ALARM State
 
-![Alarm State](screenshots/inaalarm.png)
+![Alarm State](inaalarm.png)
 
 ### CloudWatch Overview
 
-![Monitoring Overview](screenshots/finalmonitoring.png)
+![Monitoring Overview](finalmonitoring.png)
 
 ### SNS Notification – Status Alarm
 
-![Status Email](screenshots/email1.png)
+![Status Email](email1.png)
 
 ### SNS Notification – CPU Alarm
 
-![CPU Email](screenshots/email2.png)
+![CPU Email](email2.png)
 
 ---
 
